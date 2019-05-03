@@ -1,0 +1,32 @@
+{
+  "name": "MMCommon",
+  "version": "0.1.0",
+  "summary": "A short description of MMCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Monang Champaneri/MMCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Monang Champaneri": "monangchampaneri.rs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Monang Champaneri/MMCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "4.2",
+  "source_files": "MMCommon/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "PureLayout": [
+
+    ]
+  }
+}

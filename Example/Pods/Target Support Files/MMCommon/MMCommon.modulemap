@@ -1,0 +1,6 @@
+framework module MMCommon {
+  umbrella header "MMCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

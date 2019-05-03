@@ -1,0 +1,29 @@
+PODS:
+  - MMCommon (0.1.0):
+    - PureLayout
+    - SDWebImage
+  - PureLayout (3.1.4)
+  - SDWebImage (5.0.2):
+    - SDWebImage/Core (= 5.0.2)
+  - SDWebImage/Core (5.0.2)
+
+DEPENDENCIES:
+  - MMCommon (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PureLayout
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  MMCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMCommon: 7db3d6633d2424e8bf57db6b8ac72ec7e5536b76
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+
+PODFILE CHECKSUM: bf699339c812b16ecd3ea295edefc243a457c9c4
+
+COCOAPODS: 1.5.2
