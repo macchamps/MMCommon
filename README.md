@@ -1,6 +1,6 @@
 # MMCommon
 
-[![CI Status](https://img.shields.io/travis/Monang Champaneri/MMCommon.svg?style=flat)](https://travis-ci.org/Monang Champaneri/MMCommon)
+[![Build Status](https://travis-ci.org/macchamps/MMCommon.svg?branch=master)](https://travis-ci.org/macchamps/MMCommon)
 [![Version](https://img.shields.io/cocoapods/v/MMCommon.svg?style=flat)](https://cocoapods.org/pods/MMCommon)
 [![License](https://img.shields.io/cocoapods/l/MMCommon.svg?style=flat)](https://cocoapods.org/pods/MMCommon)
 [![Platform](https://img.shields.io/cocoapods/p/MMCommon.svg?style=flat)](https://cocoapods.org/pods/MMCommon)
