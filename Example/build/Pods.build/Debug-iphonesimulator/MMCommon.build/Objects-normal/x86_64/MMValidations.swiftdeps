@@ -1,0 +1,838 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SS", ""]
+- ["SS", "isTrimmed"]
+- ["SS", "isBlank"]
+- ["SS", "isValidValue"]
+- ["SS", "isAlphabatics"]
+- ["SS", "isOnlyText"]
+- ["SS", "isAlphanumeric"]
+- ["SS", "isEmail"]
+- ["SS", "isName"]
+- ["SS", "isPhoneNumber"]
+- ["SS", "isValidUsername"]
+- ["SS", "isValidPassword"]
+- ["SS", "setMinMaxCount"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "<"
+- !private "=="
+- !private ">"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CharacterSet"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NSDataDetector"
+- !private "NSMakeRange"
+- !private "NSRegularExpression"
+- !private "NSTextCheckingResult"
+- "String"
+- !private "StringLiteralType"
+- !private "||"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["SK", "CharacterSet"]
+- !private ["SK", "NSDataDetector"]
+- !private ["SK", "NSMakeRange"]
+- !private ["SK", "NSRegularExpression"]
+- !private ["SK", "NSTextCheckingResult"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "isOnlyText"]
+- !private ["SK", "range"]
+- !private ["SK", "rangeOfCharacter"]
+- !private ["SK", "setMinMaxCount"]
+- !private ["SK", "trimmingCharacters"]
+- !private ["s7CVarArgP", "CharacterSet"]
+- !private ["s7CVarArgP", "CheckingType"]
+- !private ["s7CVarArgP", "MatchingOptions"]
+- !private ["s7CVarArgP", "NSDataDetector"]
+- !private ["s7CVarArgP", "NSMakeRange"]
+- !private ["s7CVarArgP", "NSRegularExpression"]
+- !private ["s7CVarArgP", "NSTextCheckingResult"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "firstMatch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isOnlyText"]
+- !private ["s7CVarArgP", "matches"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "rangeOfCharacter"]
+- !private ["s7CVarArgP", "resultType"]
+- !private ["s7CVarArgP", "setMinMaxCount"]
+- !private ["s7CVarArgP", "trimmingCharacters"]
+- !private ["10Foundation12CharacterSetV", "inverted"]
+- !private ["10Foundation12CharacterSetV", "letters"]
+- !private ["10Foundation12CharacterSetV", "whitespaces"]
+- !private ["So18NSTextCheckingTypeV", "phoneNumber"]
+- !private ["So18NSTextCheckingTypeV", "rawValue"]
+- !private ["Sl", "CharacterSet"]
+- !private ["Sl", "NSDataDetector"]
+- !private ["Sl", "NSMakeRange"]
+- !private ["Sl", "NSRegularExpression"]
+- !private ["Sl", "NSTextCheckingResult"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "isOnlyText"]
+- !private ["Sl", "range"]
+- !private ["Sl", "rangeOfCharacter"]
+- !private ["Sl", "setMinMaxCount"]
+- !private ["Sl", "trimmingCharacters"]
+- !private ["SL", "CharacterSet"]
+- !private ["SL", "NSDataDetector"]
+- !private ["SL", "NSMakeRange"]
+- !private ["SL", "NSRegularExpression"]
+- !private ["SL", "NSTextCheckingResult"]
+- !private ["SL", "count"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "isOnlyText"]
+- !private ["SL", "range"]
+- !private ["SL", "rangeOfCharacter"]
+- !private ["SL", "setMinMaxCount"]
+- !private ["SL", "trimmingCharacters"]
+- !private ["So22NSStringCompareOptionsV", "regularExpression"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
+- !private ["s28CustomDebugStringConvertibleP", "CheckingType"]
+- !private ["s28CustomDebugStringConvertibleP", "MatchingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDataDetector"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMakeRange"]
+- !private ["s28CustomDebugStringConvertibleP", "NSRegularExpression"]
+- !private ["s28CustomDebugStringConvertibleP", "NSTextCheckingResult"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "firstMatch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inverted"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isOnlyText"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- !private ["s28CustomDebugStringConvertibleP", "letters"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "matches"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "rangeOfCharacter"]
+- !private ["s28CustomDebugStringConvertibleP", "resultType"]
+- !private ["s28CustomDebugStringConvertibleP", "setMinMaxCount"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "whitespaces"]
+- !private ["s17CustomReflectableP", "CharacterSet"]
+- !private ["s17CustomReflectableP", "NSDataDetector"]
+- !private ["s17CustomReflectableP", "NSMakeRange"]
+- !private ["s17CustomReflectableP", "NSRegularExpression"]
+- !private ["s17CustomReflectableP", "NSTextCheckingResult"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "isOnlyText"]
+- !private ["s17CustomReflectableP", "length"]
+- !private ["s17CustomReflectableP", "location"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s17CustomReflectableP", "rangeOfCharacter"]
+- !private ["s17CustomReflectableP", "setMinMaxCount"]
+- !private ["s17CustomReflectableP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "CharacterSet"]
+- !private ["s23CustomStringConvertibleP", "CheckingType"]
+- !private ["s23CustomStringConvertibleP", "MatchingOptions"]
+- !private ["s23CustomStringConvertibleP", "NSDataDetector"]
+- !private ["s23CustomStringConvertibleP", "NSMakeRange"]
+- !private ["s23CustomStringConvertibleP", "NSRegularExpression"]
+- !private ["s23CustomStringConvertibleP", "NSTextCheckingResult"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstMatch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inverted"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isOnlyText"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "letters"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "matches"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "rangeOfCharacter"]
+- !private ["s23CustomStringConvertibleP", "resultType"]
+- !private ["s23CustomStringConvertibleP", "setMinMaxCount"]
+- !private ["s23CustomStringConvertibleP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "whitespaces"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "CharacterSet"]
+- !private ["Se", "NSDataDetector"]
+- !private ["Se", "NSMakeRange"]
+- !private ["Se", "NSRegularExpression"]
+- !private ["Se", "NSTextCheckingResult"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "inverted"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "isOnlyText"]
+- !private ["Se", "length"]
+- !private ["Se", "letters"]
+- !private ["Se", "location"]
+- !private ["Se", "range"]
+- !private ["Se", "rangeOfCharacter"]
+- !private ["Se", "setMinMaxCount"]
+- !private ["Se", "trimmingCharacters"]
+- !private ["Se", "whitespaces"]
+- !private ["SE", "CharacterSet"]
+- !private ["SE", "NSDataDetector"]
+- !private ["SE", "NSMakeRange"]
+- !private ["SE", "NSRegularExpression"]
+- !private ["SE", "NSTextCheckingResult"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "inverted"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isOnlyText"]
+- !private ["SE", "length"]
+- !private ["SE", "letters"]
+- !private ["SE", "location"]
+- !private ["SE", "range"]
+- !private ["SE", "rangeOfCharacter"]
+- !private ["SE", "setMinMaxCount"]
+- !private ["SE", "trimmingCharacters"]
+- !private ["SE", "whitespaces"]
+- !private ["SQ", "CharacterSet"]
+- !private ["SQ", "CheckingType"]
+- !private ["SQ", "MatchingOptions"]
+- !private ["SQ", "NSDataDetector"]
+- !private ["SQ", "NSMakeRange"]
+- !private ["SQ", "NSRegularExpression"]
+- !private ["SQ", "NSTextCheckingResult"]
+- !private ["SQ", "caseInsensitive"]
+- !private ["SQ", "count"]
+- !private ["SQ", "first"]
+- !private ["SQ", "firstMatch"]
+- !private ["SQ", "init"]
+- !private ["SQ", "inverted"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isOnlyText"]
+- !private ["SQ", "length"]
+- !private ["SQ", "letters"]
+- !private ["SQ", "location"]
+- !private ["SQ", "matches"]
+- !private ["SQ", "phoneNumber"]
+- !private ["SQ", "range"]
+- !private ["SQ", "rangeOfCharacter"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "regularExpression"]
+- !private ["SQ", "resultType"]
+- !private ["SQ", "setMinMaxCount"]
+- !private ["SQ", "trimmingCharacters"]
+- !private ["SQ", "whitespaces"]
+- !private ["s25ExpressibleByArrayLiteralP", "caseInsensitive"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "inverted"]
+- !private ["s25ExpressibleByArrayLiteralP", "letters"]
+- !private ["s25ExpressibleByArrayLiteralP", "phoneNumber"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "regularExpression"]
+- !private ["s25ExpressibleByArrayLiteralP", "whitespaces"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CharacterSet"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSDataDetector"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSMakeRange"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSRegularExpression"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSTextCheckingResult"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isOnlyText"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "rangeOfCharacter"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "setMinMaxCount"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s32ExpressibleByStringInterpolationP", "CharacterSet"]
+- !private ["s32ExpressibleByStringInterpolationP", "NSDataDetector"]
+- !private ["s32ExpressibleByStringInterpolationP", "NSMakeRange"]
+- !private ["s32ExpressibleByStringInterpolationP", "NSRegularExpression"]
+- !private ["s32ExpressibleByStringInterpolationP", "NSTextCheckingResult"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "isOnlyText"]
+- !private ["s32ExpressibleByStringInterpolationP", "range"]
+- !private ["s32ExpressibleByStringInterpolationP", "rangeOfCharacter"]
+- !private ["s32ExpressibleByStringInterpolationP", "setMinMaxCount"]
+- !private ["s32ExpressibleByStringInterpolationP", "trimmingCharacters"]
+- !private ["s26ExpressibleByStringLiteralP", "CharacterSet"]
+- !private ["s26ExpressibleByStringLiteralP", "NSDataDetector"]
+- !private ["s26ExpressibleByStringLiteralP", "NSMakeRange"]
+- !private ["s26ExpressibleByStringLiteralP", "NSRegularExpression"]
+- !private ["s26ExpressibleByStringLiteralP", "NSTextCheckingResult"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isOnlyText"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "rangeOfCharacter"]
+- !private ["s26ExpressibleByStringLiteralP", "setMinMaxCount"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmingCharacters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "CharacterSet"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NSDataDetector"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NSMakeRange"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NSRegularExpression"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NSTextCheckingResult"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isOnlyText"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "rangeOfCharacter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "setMinMaxCount"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["SH", "CharacterSet"]
+- !private ["SH", "CheckingType"]
+- !private ["SH", "MatchingOptions"]
+- !private ["SH", "NSDataDetector"]
+- !private ["SH", "NSMakeRange"]
+- !private ["SH", "NSRegularExpression"]
+- !private ["SH", "NSTextCheckingResult"]
+- !private ["SH", "count"]
+- !private ["SH", "first"]
+- !private ["SH", "firstMatch"]
+- !private ["SH", "init"]
+- !private ["SH", "inverted"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isOnlyText"]
+- !private ["SH", "length"]
+- !private ["SH", "letters"]
+- !private ["SH", "location"]
+- !private ["SH", "matches"]
+- !private ["SH", "range"]
+- !private ["SH", "rangeOfCharacter"]
+- !private ["SH", "resultType"]
+- !private ["SH", "setMinMaxCount"]
+- !private ["SH", "trimmingCharacters"]
+- !private ["SH", "whitespaces"]
+- !private ["s25LosslessStringConvertibleP", "CharacterSet"]
+- !private ["s25LosslessStringConvertibleP", "NSDataDetector"]
+- !private ["s25LosslessStringConvertibleP", "NSMakeRange"]
+- !private ["s25LosslessStringConvertibleP", "NSRegularExpression"]
+- !private ["s25LosslessStringConvertibleP", "NSTextCheckingResult"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "isOnlyText"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s25LosslessStringConvertibleP", "rangeOfCharacter"]
+- !private ["s25LosslessStringConvertibleP", "setMinMaxCount"]
+- !private ["s25LosslessStringConvertibleP", "trimmingCharacters"]
+- !private ["So17NSMatchingOptionsV", "init"]
+- !private ["s10MirrorPathP", "CharacterSet"]
+- !private ["s10MirrorPathP", "NSDataDetector"]
+- !private ["s10MirrorPathP", "NSMakeRange"]
+- !private ["s10MirrorPathP", "NSRegularExpression"]
+- !private ["s10MirrorPathP", "NSTextCheckingResult"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "isOnlyText"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["s10MirrorPathP", "rangeOfCharacter"]
+- !private ["s10MirrorPathP", "setMinMaxCount"]
+- !private ["s10MirrorPathP", "trimmingCharacters"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "CheckingType"]
+- !private ["So8NSCodingP", "MatchingOptions"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "firstMatch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "isOnlyText"]
+- !private ["So8NSCodingP", "matches"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "rangeOfCharacter"]
+- !private ["So8NSCodingP", "resultType"]
+- !private ["So8NSCodingP", "setMinMaxCount"]
+- !private ["So8NSCodingP", "trimmingCharacters"]
+- !private ["So9NSCopyingP", "CheckingType"]
+- !private ["So9NSCopyingP", "MatchingOptions"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "firstMatch"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isOnlyText"]
+- !private ["So9NSCopyingP", "matches"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "rangeOfCharacter"]
+- !private ["So9NSCopyingP", "resultType"]
+- !private ["So9NSCopyingP", "setMinMaxCount"]
+- !private ["So9NSCopyingP", "trimmingCharacters"]
+- !private ["So14NSDataDetectorC", "init"]
+- !private ["So14NSDataDetectorC", "matches"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isOnlyText"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "rangeOfCharacter"]
+- !private ["So21NSItemProviderReadingP", "setMinMaxCount"]
+- !private ["So21NSItemProviderReadingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isOnlyText"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "rangeOfCharacter"]
+- !private ["So21NSItemProviderWritingP", "setMinMaxCount"]
+- !private ["So21NSItemProviderWritingP", "trimmingCharacters"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isOnlyText"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "rangeOfCharacter"]
+- !private ["So16NSMutableCopyingP", "setMinMaxCount"]
+- !private ["So16NSMutableCopyingP", "trimmingCharacters"]
+- !private ["So8NSObjectC", "CheckingType"]
+- !private ["So8NSObjectC", "MatchingOptions"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "firstMatch"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "isOnlyText"]
+- !private ["So8NSObjectC", "matches"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "rangeOfCharacter"]
+- !private ["So8NSObjectC", "resultType"]
+- !private ["So8NSObjectC", "setMinMaxCount"]
+- !private ["So8NSObjectC", "trimmingCharacters"]
+- !private ["So8NSObjectP", "CheckingType"]
+- !private ["So8NSObjectP", "MatchingOptions"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "firstMatch"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "isOnlyText"]
+- !private ["So8NSObjectP", "matches"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So8NSObjectP", "rangeOfCharacter"]
+- !private ["So8NSObjectP", "resultType"]
+- !private ["So8NSObjectP", "setMinMaxCount"]
+- !private ["So8NSObjectP", "trimmingCharacters"]
+- !private ["So19NSRegularExpressionC", "MatchingOptions"]
+- !private ["So19NSRegularExpressionC", "firstMatch"]
+- !private ["So19NSRegularExpressionC", "init"]
+- !private ["So19NSRegularExpressionC", "matches"]
+- !private ["So14NSSecureCodingP", "CheckingType"]
+- !private ["So14NSSecureCodingP", "MatchingOptions"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "firstMatch"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isOnlyText"]
+- !private ["So14NSSecureCodingP", "matches"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "rangeOfCharacter"]
+- !private ["So14NSSecureCodingP", "resultType"]
+- !private ["So14NSSecureCodingP", "setMinMaxCount"]
+- !private ["So14NSSecureCodingP", "trimmingCharacters"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "isOnlyText"]
+- !private ["So8NSStringC", "range"]
+- !private ["So8NSStringC", "rangeOfCharacter"]
+- !private ["So8NSStringC", "setMinMaxCount"]
+- !private ["So8NSStringC", "trimmingCharacters"]
+- !private ["So20NSTextCheckingResultC", "CheckingType"]
+- !private ["So20NSTextCheckingResultC", "range"]
+- !private ["So20NSTextCheckingResultC", "resultType"]
+- !private ["s9OptionSetP", "caseInsensitive"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "phoneNumber"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["s9OptionSetP", "regularExpression"]
+- !private ["So26NSRegularExpressionOptionsV", "caseInsensitive"]
+- !private ["Sk", "first"]
+- !private ["Sm", "CharacterSet"]
+- !private ["Sm", "NSDataDetector"]
+- !private ["Sm", "NSMakeRange"]
+- !private ["Sm", "NSRegularExpression"]
+- !private ["Sm", "NSTextCheckingResult"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "isOnlyText"]
+- !private ["Sm", "range"]
+- !private ["Sm", "rangeOfCharacter"]
+- !private ["Sm", "setMinMaxCount"]
+- !private ["Sm", "trimmingCharacters"]
+- !private ["SY", "caseInsensitive"]
+- !private ["SY", "init"]
+- !private ["SY", "phoneNumber"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "regularExpression"]
+- !private ["10Foundation20ReferenceConvertibleP", "inverted"]
+- !private ["10Foundation20ReferenceConvertibleP", "letters"]
+- !private ["10Foundation20ReferenceConvertibleP", "whitespaces"]
+- !private ["ST", "CharacterSet"]
+- !private ["ST", "NSDataDetector"]
+- !private ["ST", "NSMakeRange"]
+- !private ["ST", "NSRegularExpression"]
+- !private ["ST", "NSTextCheckingResult"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "isOnlyText"]
+- !private ["ST", "range"]
+- !private ["ST", "rangeOfCharacter"]
+- !private ["ST", "setMinMaxCount"]
+- !private ["ST", "trimmingCharacters"]
+- !private ["s10SetAlgebraP", "caseInsensitive"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "inverted"]
+- !private ["s10SetAlgebraP", "letters"]
+- !private ["s10SetAlgebraP", "phoneNumber"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s10SetAlgebraP", "regularExpression"]
+- !private ["s10SetAlgebraP", "whitespaces"]
+- ["SS", "Bool"]
+- !private ["SS", "CharacterSet"]
+- ["SS", "Int"]
+- !private ["SS", "NSDataDetector"]
+- !private ["SS", "NSMakeRange"]
+- !private ["SS", "NSRegularExpression"]
+- !private ["SS", "NSTextCheckingResult"]
+- ["SS", "String"]
+- !private ["SS", "count"]
+- ["SS", "isAlphabatics"]
+- ["SS", "isAlphanumeric"]
+- ["SS", "isBlank"]
+- ["SS", "isEmail"]
+- !private ["SS", "isEmpty"]
+- ["SS", "isName"]
+- ["SS", "isOnlyText"]
+- ["SS", "isPhoneNumber"]
+- ["SS", "isTrimmed"]
+- ["SS", "isValidPassword"]
+- ["SS", "isValidUsername"]
+- ["SS", "isValidValue"]
+- !private ["SS", "range"]
+- !private ["SS", "rangeOfCharacter"]
+- ["SS", "setMinMaxCount"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["Sy", "CharacterSet"]
+- !private ["Sy", "NSDataDetector"]
+- !private ["Sy", "NSMakeRange"]
+- !private ["Sy", "NSRegularExpression"]
+- !private ["Sy", "NSTextCheckingResult"]
+- !private ["Sy", "count"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "isOnlyText"]
+- !private ["Sy", "range"]
+- !private ["Sy", "rangeOfCharacter"]
+- !private ["Sy", "setMinMaxCount"]
+- !private ["Sy", "trimmingCharacters"]
+- !private ["s16TextOutputStreamP", "CharacterSet"]
+- !private ["s16TextOutputStreamP", "NSDataDetector"]
+- !private ["s16TextOutputStreamP", "NSMakeRange"]
+- !private ["s16TextOutputStreamP", "NSRegularExpression"]
+- !private ["s16TextOutputStreamP", "NSTextCheckingResult"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isOnlyText"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s16TextOutputStreamP", "rangeOfCharacter"]
+- !private ["s16TextOutputStreamP", "setMinMaxCount"]
+- !private ["s16TextOutputStreamP", "trimmingCharacters"]
+- !private ["s20TextOutputStreamableP", "CharacterSet"]
+- !private ["s20TextOutputStreamableP", "NSDataDetector"]
+- !private ["s20TextOutputStreamableP", "NSMakeRange"]
+- !private ["s20TextOutputStreamableP", "NSRegularExpression"]
+- !private ["s20TextOutputStreamableP", "NSTextCheckingResult"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isOnlyText"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["s20TextOutputStreamableP", "rangeOfCharacter"]
+- !private ["s20TextOutputStreamableP", "setMinMaxCount"]
+- !private ["s20TextOutputStreamableP", "trimmingCharacters"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "CharacterSet"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NSDataDetector"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NSMakeRange"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NSRegularExpression"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NSTextCheckingResult"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isOnlyText"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "length"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "location"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "range"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "rangeOfCharacter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "setMinMaxCount"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trimmingCharacters"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "CharacterSet"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NSDataDetector"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NSMakeRange"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NSRegularExpression"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NSTextCheckingResult"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isOnlyText"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "rangeOfCharacter"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "setMinMaxCount"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "CharacterSet"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NSDataDetector"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NSMakeRange"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NSRegularExpression"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NSTextCheckingResult"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isOnlyText"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "rangeOfCharacter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "setMinMaxCount"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmingCharacters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "CharacterSet"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NSDataDetector"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NSMakeRange"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NSRegularExpression"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NSTextCheckingResult"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isOnlyText"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "rangeOfCharacter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "setMinMaxCount"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s19_HasContiguousBytesP", "CharacterSet"]
+- !private ["s19_HasContiguousBytesP", "NSDataDetector"]
+- !private ["s19_HasContiguousBytesP", "NSMakeRange"]
+- !private ["s19_HasContiguousBytesP", "NSRegularExpression"]
+- !private ["s19_HasContiguousBytesP", "NSTextCheckingResult"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isOnlyText"]
+- !private ["s19_HasContiguousBytesP", "range"]
+- !private ["s19_HasContiguousBytesP", "rangeOfCharacter"]
+- !private ["s19_HasContiguousBytesP", "setMinMaxCount"]
+- !private ["s19_HasContiguousBytesP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isOnlyText"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rangeOfCharacter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setMinMaxCount"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "trimmingCharacters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CheckingType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MatchingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstMatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOnlyText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rangeOfCharacter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setMinMaxCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trimmingCharacters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CheckingType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MatchingOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstMatch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isOnlyText"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "matches"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "range"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rangeOfCharacter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resultType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setMinMaxCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trimmingCharacters"]
+- !private ["So8_NSRangeV", "length"]
+- !private ["So8_NSRangeV", "location"]
+- !private ["s21_ObjectiveCBridgeableP", "CharacterSet"]
+- !private ["s21_ObjectiveCBridgeableP", "NSDataDetector"]
+- !private ["s21_ObjectiveCBridgeableP", "NSMakeRange"]
+- !private ["s21_ObjectiveCBridgeableP", "NSRegularExpression"]
+- !private ["s21_ObjectiveCBridgeableP", "NSTextCheckingResult"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "inverted"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "isOnlyText"]
+- !private ["s21_ObjectiveCBridgeableP", "length"]
+- !private ["s21_ObjectiveCBridgeableP", "letters"]
+- !private ["s21_ObjectiveCBridgeableP", "location"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "rangeOfCharacter"]
+- !private ["s21_ObjectiveCBridgeableP", "setMinMaxCount"]
+- !private ["s21_ObjectiveCBridgeableP", "trimmingCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", "whitespaces"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "So18NSTextCheckingTypeV"
+- !private "Sl"
+- !private "SL"
+- !private "So22NSStringCompareOptionsV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So17NSMatchingOptionsV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSDataDetectorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSRegularExpressionC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So20NSTextCheckingResultC"
+- !private "s9OptionSetP"
+- !private "So26NSRegularExpressionOptionsV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So8_NSRangeV"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/Target Support Files/MMCommon/MMCommon-umbrella.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+Metadata.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/WebImage/SDWebImage.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImage.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSButton+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDDiskCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDMemoryCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageFrame.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDefine.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCacheDefine.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderConfig.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+Transform.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageTransition.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageRep.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageLoader.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageGIFCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageAPNGCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageIOCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCachesManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageLoadersManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCodersManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderRequestModifier.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageTransformer.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCoderHelper.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCacheKeyFilter.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCacheSerializer.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageError.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageIndicator.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageGraphics.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+MemoryCacheCost.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageView.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSImage+Compatibility.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/MMCommon.build/unextended-module.modulemap"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/PureLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b715b0a86394ba0834a23040dde8d7d7"

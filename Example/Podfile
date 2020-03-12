@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 
 target 'MMCommon_Example' do
@@ -7,6 +7,5 @@ target 'MMCommon_Example' do
   target 'MMCommon_Tests' do
     inherit! :search_paths
 
-    
   end
 end

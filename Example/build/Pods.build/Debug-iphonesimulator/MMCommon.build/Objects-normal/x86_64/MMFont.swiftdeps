@@ -1,0 +1,332 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Fonts"
+- "IS_IPHONE4"
+- "IS_IPHONE5"
+- "IS_IPHONE6"
+- "IS_IPHONE6P"
+- "IS_IPHONE_X"
+- "IS_IPHONE_XsMax"
+- "IS_IPHONE_XR"
+- "proportionalFontSize"
+provides-nominal:
+- "8MMCommon5FontsV"
+provides-member:
+- ["8MMCommon5FontsV", ""]
+- ["So6UIFontC", ""]
+- ["So6UIFontC", "LightFontOfSize"]
+- ["So6UIFontC", "LightItalicFontOfSize"]
+- ["So6UIFontC", "MediumFontOfSize"]
+- ["So6UIFontC", "MediumItalicFontOfSize"]
+- ["So6UIFontC", "ItalicFontOfSize"]
+- ["So6UIFontC", "RegularFontOfSize"]
+- ["So6UIFontC", "SemiboldFontOfSize"]
+- ["So6UIFontC", "SemiBoldItalicFontOfSize"]
+- ["So6UIFontC", "BoldItalicFontOfSize"]
+- ["So6UIFontC", "BoldFontOfSize"]
+- ["So6UIFontC", "ExtraBoldFontOfSize"]
+- ["So6UIFontC", "ExtraBoldItalicFontOfSize"]
+provides-dynamic-lookup:
+depends-top-level:
+- "&&"
+- !private "+"
+- "-"
+- "<"
+- "=="
+- "CGFloat"
+- "FloatLiteralType"
+- "Fonts"
+- "IS_IPHONE4"
+- "IS_IPHONE5"
+- "IS_IPHONE6"
+- "IS_IPHONE6P"
+- "IS_IPHONE_X"
+- "IS_IPHONE_XR"
+- "IS_IPHONE_XsMax"
+- "IntegerLiteralType"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UIFont"
+- "UIScreen"
+- "abs"
+- !private "fatalError"
+- "proportionalFontSize"
+- !private "||"
+depends-member:
+- ["So6CGRectV", "height"]
+- ["So6CGRectV", "size"]
+- ["So6CGRectV", "width"]
+- ["So6CGSizeV", "height"]
+- !private ["s7CVarArgP", "Fonts"]
+- !private ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "proportionalFontSize"]
+- !private ["s28CustomDebugStringConvertibleP", "Fonts"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "proportionalFontSize"]
+- ["s28CustomDebugStringConvertibleP", "size"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "Fonts"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "proportionalFontSize"]
+- ["Se", "height"]
+- ["Se", "size"]
+- ["Se", "width"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "height"]
+- ["SE", "size"]
+- ["SE", "width"]
+- !private ["SQ", "Fonts"]
+- !private ["SQ", "UIFont"]
+- ["SQ", "bounds"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "height"]
+- !private ["SQ", "init"]
+- ["SQ", "main"]
+- !private ["SQ", "proportionalFontSize"]
+- ["SQ", "size"]
+- ["SQ", "width"]
+- ["8MMCommon5FontsV", "Bold"]
+- ["8MMCommon5FontsV", "BoldItalic"]
+- ["8MMCommon5FontsV", "ExtraBold"]
+- ["8MMCommon5FontsV", "ExtraBoldItalic"]
+- ["8MMCommon5FontsV", "Italic"]
+- ["8MMCommon5FontsV", "Light"]
+- ["8MMCommon5FontsV", "LightItalic"]
+- ["8MMCommon5FontsV", "Medium"]
+- ["8MMCommon5FontsV", "MediumItalic"]
+- ["8MMCommon5FontsV", "Regular"]
+- ["8MMCommon5FontsV", "SemiBoldItalic"]
+- ["8MMCommon5FontsV", "Semibold"]
+- ["8MMCommon5FontsV", "init"]
+- !private ["SH", "Fonts"]
+- !private ["SH", "UIFont"]
+- ["SH", "bounds"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "init"]
+- ["SH", "main"]
+- !private ["SH", "proportionalFontSize"]
+- !private ["So9NSCopyingP", "Fonts"]
+- !private ["So9NSCopyingP", "UIFont"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "proportionalFontSize"]
+- ["So8NSObjectC", "BoldFontOfSize"]
+- ["So8NSObjectC", "BoldItalicFontOfSize"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "ExtraBoldFontOfSize"]
+- ["So8NSObjectC", "ExtraBoldItalicFontOfSize"]
+- !private ["So8NSObjectC", "Fonts"]
+- ["So8NSObjectC", "ItalicFontOfSize"]
+- ["So8NSObjectC", "LightFontOfSize"]
+- ["So8NSObjectC", "LightItalicFontOfSize"]
+- ["So8NSObjectC", "MediumFontOfSize"]
+- ["So8NSObjectC", "MediumItalicFontOfSize"]
+- ["So8NSObjectC", "RegularFontOfSize"]
+- ["So8NSObjectC", "SemiBoldItalicFontOfSize"]
+- ["So8NSObjectC", "SemiboldFontOfSize"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "proportionalFontSize"]
+- !private ["So8NSObjectP", "Fonts"]
+- !private ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "proportionalFontSize"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["So6UIFontC", "BoldFontOfSize"]
+- ["So6UIFontC", "BoldItalicFontOfSize"]
+- ["So6UIFontC", "CGFloat"]
+- ["So6UIFontC", "ExtraBoldFontOfSize"]
+- ["So6UIFontC", "ExtraBoldItalicFontOfSize"]
+- !private ["So6UIFontC", "Fonts"]
+- ["So6UIFontC", "ItalicFontOfSize"]
+- ["So6UIFontC", "LightFontOfSize"]
+- ["So6UIFontC", "LightItalicFontOfSize"]
+- ["So6UIFontC", "MediumFontOfSize"]
+- ["So6UIFontC", "MediumItalicFontOfSize"]
+- ["So6UIFontC", "RegularFontOfSize"]
+- ["So6UIFontC", "SemiBoldItalicFontOfSize"]
+- ["So6UIFontC", "SemiboldFontOfSize"]
+- ["So6UIFontC", "UIFont"]
+- !private ["So6UIFontC", "fatalError"]
+- !private ["So6UIFontC", "init"]
+- !private ["So6UIFontC", "proportionalFontSize"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- ["So18UITraitEnvironmentP", "main"]
+- ["s30_CustomPlaygroundQuickLookableP", "height"]
+- ["s30_CustomPlaygroundQuickLookableP", "size"]
+- ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Fonts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proportionalFontSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Fonts"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIFont"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "proportionalFontSize"]
+- ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "size"]
+- ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- "So6CGRectV"
+- "So6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "8MMCommon5FontsV"
+- "SH"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So6UIFontC"
+- "So8UIScreenC"
+- "So18UITraitEnvironmentP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/Target Support Files/MMCommon/MMCommon-umbrella.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+Metadata.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/WebImage/SDWebImage.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImage.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSButton+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDDiskCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDMemoryCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageFrame.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDefine.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCacheDefine.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderConfig.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+Transform.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageTransition.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageRep.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageLoader.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageGIFCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageAPNGCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageIOCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCachesManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageLoadersManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCodersManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderRequestModifier.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageTransformer.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCoderHelper.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCacheKeyFilter.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCacheSerializer.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageError.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageIndicator.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageGraphics.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+MemoryCacheCost.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageView.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSImage+Compatibility.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/MMCommon.build/unextended-module.modulemap"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/PureLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0bf1c5a3b1ec44cb1e51b3ff02c68222"

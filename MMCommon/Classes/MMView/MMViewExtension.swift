@@ -257,7 +257,7 @@ extension UIView {
         self.removeMessage()
         let labelMessage = MMRegularLabel()
         labelMessage.text = message
-        labelMessage.font = UIFont.regularFontOfSize(size: 10.0)
+        labelMessage.font = UIFont.RegularFontOfSize(size: 10.0)
         labelMessage.textColor = UIColor.red
         self.getBottomLine().backgroundColor = UIColor.red
         self.superview?.addSubview(labelMessage)

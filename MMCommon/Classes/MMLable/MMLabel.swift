@@ -61,7 +61,7 @@ class MMRegularLabel: MMLabel {
     {
         super.awakeFromNib()
         // SET FONT
-        self.font = UIFont.regularLabelFontOfSize(size: self.font.pointSize)
+        self.font = UIFont.RegularFontOfSize(size: self.font.pointSize)
     }
 }
 
@@ -72,7 +72,7 @@ class MMLightLabel: MMLabel {
     {
         super.awakeFromNib()
         // SET FONT
-        self.font = UIFont.lightLabelFontOfSize(size: self.font.pointSize)
+        self.font = UIFont.LightFontOfSize(size: self.font.pointSize)
     }
 }
 
@@ -84,7 +84,7 @@ class MMBoldLabel: MMLabel {
     {
         super.awakeFromNib()
         // SET FONT
-        self.font = UIFont.boldLabelFontOfSize(size:self.font.pointSize)
+        self.font = UIFont.boldSystemFont(ofSize: self.font.pointSize)
     }
 }
 
@@ -96,7 +96,7 @@ class MMMediumLabel: MMLabel {
     {
         super.awakeFromNib()
         // SET FONT
-        self.font = UIFont.mediumFontOfSize(size:self.font.pointSize)
+        self.font = UIFont.MediumFontOfSize(size: self.font.pointSize)
     }
 }
 

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Debug-iphonesimulator/MMCommon/MMCommon.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/MMCommon.build/unextended-module.modulemap",
+    }]
+  }]
+}

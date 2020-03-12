@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UIColorC", ""]
+- ["So7UIColorC", "themeColor1"]
+- ["So7UIColorC", "themeColor2"]
+- ["So7UIColorC", "themeColor3"]
+- ["So7UIColorC", "error_color"]
+- ["So7UIColorC", "success_color"]
+- ["So7UIColorC", "black_color"]
+- ["So7UIColorC", "white_color"]
+- ["So7UIColorC", "blue_color"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIColor"
+depends-member:
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "blue"]
+- !private ["s7CVarArgP", "cyan"]
+- !private ["s7CVarArgP", "darkGray"]
+- !private ["s7CVarArgP", "green"]
+- !private ["s7CVarArgP", "purple"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
+- !private ["s28CustomDebugStringConvertibleP", "cyan"]
+- !private ["s28CustomDebugStringConvertibleP", "darkGray"]
+- !private ["s28CustomDebugStringConvertibleP", "green"]
+- !private ["s28CustomDebugStringConvertibleP", "purple"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "blue"]
+- !private ["s23CustomStringConvertibleP", "cyan"]
+- !private ["s23CustomStringConvertibleP", "darkGray"]
+- !private ["s23CustomStringConvertibleP", "green"]
+- !private ["s23CustomStringConvertibleP", "purple"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "black"]
+- !private ["SQ", "blue"]
+- !private ["SQ", "cyan"]
+- !private ["SQ", "darkGray"]
+- !private ["SQ", "green"]
+- !private ["SQ", "purple"]
+- !private ["SQ", "red"]
+- !private ["SQ", "white"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "black"]
+- !private ["SH", "blue"]
+- !private ["SH", "cyan"]
+- !private ["SH", "darkGray"]
+- !private ["SH", "green"]
+- !private ["SH", "purple"]
+- !private ["SH", "red"]
+- !private ["SH", "white"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "blue"]
+- !private ["So8NSCodingP", "cyan"]
+- !private ["So8NSCodingP", "darkGray"]
+- !private ["So8NSCodingP", "green"]
+- !private ["So8NSCodingP", "purple"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "UIColor"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "blue"]
+- !private ["So9NSCopyingP", "cyan"]
+- !private ["So9NSCopyingP", "darkGray"]
+- !private ["So9NSCopyingP", "green"]
+- !private ["So9NSCopyingP", "purple"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "UIColor"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "blue"]
+- !private ["So21NSItemProviderReadingP", "cyan"]
+- !private ["So21NSItemProviderReadingP", "darkGray"]
+- !private ["So21NSItemProviderReadingP", "green"]
+- !private ["So21NSItemProviderReadingP", "purple"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "UIColor"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "blue"]
+- !private ["So21NSItemProviderWritingP", "cyan"]
+- !private ["So21NSItemProviderWritingP", "darkGray"]
+- !private ["So21NSItemProviderWritingP", "green"]
+- !private ["So21NSItemProviderWritingP", "purple"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "black_color"]
+- !private ["So8NSObjectC", "blue"]
+- ["So8NSObjectC", "blue_color"]
+- !private ["So8NSObjectC", "cyan"]
+- !private ["So8NSObjectC", "darkGray"]
+- ["So8NSObjectC", "error_color"]
+- !private ["So8NSObjectC", "green"]
+- !private ["So8NSObjectC", "purple"]
+- !private ["So8NSObjectC", "red"]
+- ["So8NSObjectC", "success_color"]
+- ["So8NSObjectC", "themeColor1"]
+- ["So8NSObjectC", "themeColor2"]
+- ["So8NSObjectC", "themeColor3"]
+- !private ["So8NSObjectC", "white"]
+- ["So8NSObjectC", "white_color"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "blue"]
+- !private ["So8NSObjectP", "cyan"]
+- !private ["So8NSObjectP", "darkGray"]
+- !private ["So8NSObjectP", "green"]
+- !private ["So8NSObjectP", "purple"]
+- !private ["So8NSObjectP", "red"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "UIColor"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "blue"]
+- !private ["So14NSSecureCodingP", "cyan"]
+- !private ["So14NSSecureCodingP", "darkGray"]
+- !private ["So14NSSecureCodingP", "green"]
+- !private ["So14NSSecureCodingP", "purple"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "white"]
+- ["So7UIColorC", "UIColor"]
+- !private ["So7UIColorC", "black"]
+- ["So7UIColorC", "black_color"]
+- !private ["So7UIColorC", "blue"]
+- ["So7UIColorC", "blue_color"]
+- !private ["So7UIColorC", "cyan"]
+- !private ["So7UIColorC", "darkGray"]
+- ["So7UIColorC", "error_color"]
+- !private ["So7UIColorC", "green"]
+- !private ["So7UIColorC", "purple"]
+- !private ["So7UIColorC", "red"]
+- ["So7UIColorC", "success_color"]
+- ["So7UIColorC", "themeColor1"]
+- ["So7UIColorC", "themeColor2"]
+- ["So7UIColorC", "themeColor3"]
+- !private ["So7UIColorC", "white"]
+- ["So7UIColorC", "white_color"]
+- !private ["s26_ExpressibleByColorLiteralP", "UIColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "blue"]
+- !private ["s26_ExpressibleByColorLiteralP", "cyan"]
+- !private ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- !private ["s26_ExpressibleByColorLiteralP", "green"]
+- !private ["s26_ExpressibleByColorLiteralP", "purple"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cyan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "purple"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "blue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cyan"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "darkGray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "green"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "purple"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "red"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7UIColorC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/Target Support Files/MMCommon/MMCommon-umbrella.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+Metadata.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/WebImage/SDWebImage.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImage.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSButton+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageView+WebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDDiskCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDMemoryCache.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageFrame.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDefine.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCacheDefine.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderConfig.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+Transform.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageTransition.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageRep.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageLoader.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageGIFCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageAPNGCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageIOCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCoder.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCachesManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageLoadersManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCodersManager.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderRequestModifier.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageTransformer.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageCoderHelper.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCacheKeyFilter.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCacheSerializer.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageError.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageIndicator.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDImageGraphics.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/UIImage+MemoryCacheCost.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/SDAnimatedImageView.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/Pods/SDWebImage/SDWebImage/NSImage+Compatibility.h"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/MMCommon.build/unextended-module.modulemap"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+- "/Users/macchamps/Desktop/MyPod/MMCommon/Example/build/Pods.build/Debug-iphonesimulator/PureLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "62d71df5d17100d068736637e1b0f904"

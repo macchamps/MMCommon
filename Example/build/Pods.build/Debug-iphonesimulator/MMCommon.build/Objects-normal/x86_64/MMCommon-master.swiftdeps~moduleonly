@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "713b228cb7424d6c79c97f5e0e103322"
+build_time: [1584034334, 181417000]
+inputs:
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMButton/MMButton.swift": [1584034296, 12085552]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMColor/MMColorExtension.swift": [1584033638, 614838544]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMFont/MMFont.swift": [1584034093, 263109724]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMImage/MMImage.swift": [1584033638, 615892960]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMImageView/MMImageViewExtension.swift": [1584033638, 616344826]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMLable/MMLabel.swift": [1584034157, 310933985]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMTextField/MMTextField.swift": [1584033638, 620505475]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMValidation/MMValidations.swift": [1584033638, 621363497]
+  "/Users/macchamps/Desktop/MyPod/MMCommon/MMCommon/Classes/MMView/MMViewExtension.swift": [1584034295, 992158714]

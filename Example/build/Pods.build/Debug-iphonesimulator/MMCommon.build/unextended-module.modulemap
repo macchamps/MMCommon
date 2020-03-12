@@ -1,0 +1,10 @@
+framework module MMCommon {
+  umbrella header "MMCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MMCommon.__Swift {
+    exclude header "MMCommon-Swift.h"
+}
